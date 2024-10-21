@@ -1,0 +1,86 @@
+/* First section */
+
+.section-introduce{
+    border: 2px solid rgb(49, 9, 91);
+    background-color: rgb(49, 9, 91);
+    padding: 30px;
+}
+
+.section-introduce .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-introduce .row .col{
+    padding: 5px;
+}
+
+.section-introduce h1{
+    font-size: 3em;
+    color: rgb(115, 25, 211);
+}
+
+.section-introduce p{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Second section */
+
+.section-projects h1{
+    text-align: center;
+}
+
+.section-projects .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-projects .row .col{
+    padding: 5px;
+}
+
+/* third and last section */
+
+.section-form{
+    border: 2px solid rgb(49, 9, 91);
+    background-color: rgb(49, 9, 91);
+    padding: 30px;
+}
+
+.section-form h1{
+    text-align: center;
+    color: rgb(115, 25, 211);
+}
+
+.form .row{
+    display: flex;
+    justify-content: center;
+}
+
+.form .col{
+    padding: 5px;
+}
+
+.form label{
+    color: #fff;
+}
+
+.form input{
+    width: 500px;
+    padding: 4px;
+    outline: none;
+}
+
+.form input:focus{
+    border: 2px solid rgb(115, 25, 211);
+}
+
+.form textarea{
+    width: 1020px;
+    outline: none;
+}
+
+.form textarea:focus{
+    border: 2px solid rgb(115, 25, 211);
+}

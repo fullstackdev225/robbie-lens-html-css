@@ -5,3 +5,20 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.btn{
+    text-decoration: none;
+    border: 2px solid rgb(115, 25, 211);
+    background-color: rgb(115, 25, 211);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.btn:hover{
+    border-color: rgb(74, 15, 137);
+    background-color: rgb(74, 15, 137)
+}

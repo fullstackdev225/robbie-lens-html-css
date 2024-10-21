@@ -1,0 +1,19 @@
+.footer{
+    border: 2px solid rgb(115, 25, 211);
+    background-color: rgb(115, 25, 211);
+}
+
+.footer .footer-title{
+    margin-left: 100px;
+    color: rgb(49, 9, 91);
+}
+
+.footer .footer-social{
+    float: right;
+    margin-right: 100px;
+    margin-top: -70px;
+}
+
+.footer .footer-social a:hover{
+    opacity: 0.7;
+}

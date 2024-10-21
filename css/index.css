@@ -84,3 +84,52 @@
 .form textarea:focus{
     border: 2px solid rgb(115, 25, 211);
 }
+
+/* responsive design */
+
+@media screen and (max-width: 767px) {
+    /* first section */
+
+    .section-introduce .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-introduce .col{
+        margin: 8px;
+    }
+
+    .section-introduce img{
+        width: 350px;
+    }
+
+    /* second section */
+
+    .section-projects .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-projects .col{
+        margin: 8px;
+    }
+
+    /* third and last section */
+
+    .section-form .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-form .col{
+        margin: 8px;
+    }
+
+    .form input{
+        width: 300px;
+    }
+
+    .form textarea{
+        width: 300px;
+    }
+}

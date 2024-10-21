@@ -36,3 +36,19 @@
     color: rgb(49, 9, 91);
 }
 
+/* responsive design */
+
+@media screen and (max-width: 767px) {
+    .header .header-title{
+        margin-left: 20px;
+    }
+
+    .navbar{
+        margin-top: -100px;
+        margin-right: 20px;
+    }
+
+    .navbar .navbar-nav{
+        flex-direction: column;
+    }
+}

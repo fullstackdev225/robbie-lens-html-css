@@ -1,0 +1,38 @@
+.header{
+    border: 2px solid rgb(12, 126, 171);
+    background-color: rgb(12, 126, 171);
+}
+
+.header .header__title{
+    margin-left: 100px;
+    color: rgb(10, 30, 38);
+}
+
+.navbar{
+    float: right;
+    margin-top: -90px;
+    margin-right: 100px;
+}
+
+.navbar .navbar__nav{
+    display: flex;
+}
+
+.navbar .nav__item{
+   list-style-type: none;
+}
+
+.navbar .nav__link{
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    transition: color 300ms;
+}
+
+.navbar .nav__link:hover{
+    color: rgb(10, 30, 38);
+}
+
+.navbar .nav__link--active{
+    color: rgb(10, 30, 38);
+}

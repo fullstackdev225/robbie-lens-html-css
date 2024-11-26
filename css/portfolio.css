@@ -1,0 +1,63 @@
+/* style of the first section */
+.section-title{
+    border: 2px solid rgb(10, 30, 38);
+    background-color: rgb(10, 30, 38);
+}
+
+.section-title h1{
+    margin-left: 100px;
+    color: rgb(12, 126, 171);
+    font-size: 3em;
+}
+
+/* style of the second section */
+.section-landscape h1{
+    text-align: center;
+}
+
+.section-landscape .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-landscape .col{
+    padding: 5px;
+}
+
+.section-landscape a{
+    position: relative;
+}
+
+.section-landscape .photo-hover{
+    margin-top: -190px;
+}
+
+.section-landscape a:hover .photo-hover{
+    display: flex;
+}
+
+/* style of the third section */
+.section-portrait h1{
+    text-align: center;
+}
+
+.section-portrait .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-portrait .col{
+    padding: 5px;
+}
+
+.section-portrait a{
+    position: relative;
+}
+
+.section-portrait .photo-hover{
+    margin-top: -435px;
+}
+
+.section-portrait a:hover .photo-hover{
+    display: flex;
+}

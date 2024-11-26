@@ -1,0 +1,38 @@
+.section-about{
+    border: 2px solid rgb(10, 30, 38);
+    background-color: rgb(10, 30, 38);
+    padding: 30px;
+}
+
+.section-about h1{
+    text-align: center;
+    color: rgb(12, 126, 171);
+    font-size: 3em;
+}
+
+.section-about h2{
+    text-align: center;
+    color: #fff;
+}
+
+.section-about .text,ul{
+    margin-left: 300px;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.section-about .link{
+    text-align: center;
+}
+
+.section-about table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.section-about th,td{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 50px;
+    font-size: 1.3em;
+}

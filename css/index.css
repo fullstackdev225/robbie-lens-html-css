@@ -82,3 +82,48 @@
 .section-form textarea{
     width: 1020px;
 }
+
+/* responsive design */
+@media screen and (max-width: 797px) {
+    /* first section */
+    .section-introduce .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-introduce .col{
+        margin: 8px;
+    }
+
+    .section-introduce img{
+        width: 350px;
+    }
+
+    /* second section */
+    .section-projects .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-projects .col{
+        margin: 8px;
+    }
+
+    /* third section */
+    .section-form .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-form .col{
+        margin: 8px;
+    }
+
+    .section-form input{
+        width: 300px;
+    }
+
+    .section-form textarea{
+        width: 300px;
+    }
+}

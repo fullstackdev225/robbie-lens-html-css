@@ -36,3 +36,20 @@
 .navbar .nav__link--active{
     color: rgb(10, 30, 38);
 }
+
+/* responsive design */
+
+@media screen and (max-width: 797px){
+    .header .header__title{
+        margin-left: 20px;
+    }
+
+    .navbar{
+        margin-top: -100px;
+        margin-right: 20px;
+    }
+
+    .navbar .navbar__nav{
+        flex-direction: column;
+    }
+}

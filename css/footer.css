@@ -13,3 +13,14 @@
     margin-top: -70px;
     margin-right: 100px;
 }
+
+/* responsive design */
+@media screen and (max-width: 797px) {
+    .footer .footer-title{
+        margin-left: 20px;
+    }
+
+    .footer .footer-social{
+        margin-right: 20px;
+    }
+}

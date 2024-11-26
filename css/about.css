@@ -36,3 +36,15 @@
     padding: 50px;
     font-size: 1.3em;
 }
+
+/* responsive design */
+@media screen and (max-width: 797px) {
+    .section-about .text,ul{
+        margin-left: 50px;
+    }
+
+    .section-about th,td{
+        padding: 16px;
+        font-size: 1em;
+    }
+}

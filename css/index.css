@@ -81,3 +81,48 @@
 .form textarea{
     width: 1020px;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    /* first section */
+
+    .introduce .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduce .col{
+        margin: 8px;
+    }
+
+    .introduce img{
+        width: 300px;
+    }
+
+    /* second section */
+
+    .projects .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .col{
+        margin: 8px;
+    }
+
+    /* third section */
+
+    .form .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form .col{
+        margin: 8px;
+    }
+
+    .form .form-input{
+        width: 300px;
+    }
+}

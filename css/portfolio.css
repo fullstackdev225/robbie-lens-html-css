@@ -66,3 +66,29 @@
 .portrait a:hover .photo-hover{
     display: flex;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px){
+    /* second section */
+
+    .landscape .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landscape .col{
+        margin: 8px;
+    }
+
+    /* third section */
+
+    .portrait .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portrait .col{
+        margin: 8px;
+    }
+}

@@ -43,3 +43,22 @@ td,th{
     padding: 30px;
     text-align: center;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    .about .text{
+        margin-left: 80px;
+        font-size: 1em;
+    }
+
+    .about ul{
+        margin-left: 80px;
+        font-size: 1em;
+    }
+
+    td,th{
+        font-size: 1em;
+        padding: 15px;
+    }
+}

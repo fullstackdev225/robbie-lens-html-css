@@ -1,0 +1,83 @@
+/* first section */
+
+.introduce{
+    border: 2px solid rgb(11, 26, 49);
+    background-color: rgb(11, 26, 49);
+    padding: 30px;
+}
+
+.introduce .row{
+    display: flex;
+    justify-content: center;
+}
+
+.introduce .col{
+    padding: 5px;
+}
+
+.introduce h1{
+    font-size: 3em;
+    color: rgb(11, 80, 192);
+}
+
+.introduce p{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* second section */
+
+.projects .row{
+    display: flex;
+    justify-content: center;
+}
+
+.projects .col{
+    padding: 5px;
+}
+
+.projects h1{
+    text-align: center;
+}
+
+/* third and last section */
+
+.form{
+    border: 2px solid rgb(11, 26, 49);
+    background-color: rgb(11, 26, 49);
+    padding: 30px;
+}
+
+.form h1{
+    text-align: center;
+    color: rgb(11, 80, 192);
+}
+
+.form .row{
+    display: flex;
+    justify-content: center;
+}
+
+.form .col{
+    padding: 5px;
+}
+
+.form .form-label{
+    color: #fff;
+}
+
+.form .form-input{
+    outline: none;
+}
+
+.form .form-input:focus{
+    border: 2px solid rgb(11, 80, 192);
+}
+
+.form input{
+    width: 500px;
+}
+
+.form textarea{
+    width: 1020px;
+}

@@ -1,0 +1,38 @@
+.header{
+    border: 2px solid rgb(11, 80, 192);
+    background-color: rgb(11, 80, 192);
+}
+
+.header .header-title{
+    margin-left: 100px;
+    color: rgb(11, 26, 49);
+}
+
+.navbar{
+    float: right;
+    margin-top: -90px;
+    margin-right: 100px;
+}
+
+.navbar .navbar-nav{
+    display: flex;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link{
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    transition: color 250ms;
+}
+
+.active{
+    color: rgb(11, 26, 49);
+}
+
+.nav-link:hover{
+    color: rgb(11, 26, 49);
+}

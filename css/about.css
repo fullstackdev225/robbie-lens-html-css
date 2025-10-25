@@ -1,0 +1,45 @@
+.about{
+    border: 2px solid rgb(11, 26, 49);
+    background-color: rgb(11, 26, 49);
+    padding: 30px;
+}
+
+.about h1{
+    color: rgb(11, 80, 192);
+    font-size: 3em;
+    text-align: center;
+}
+
+.about h2{
+    text-align: center;
+    color: #fff;
+}
+
+.about .text{
+    color: #fff;
+    margin-left: 200px;
+    font-size: 1.1em;
+}
+
+.about ul{
+    color: #fff;
+    margin-left: 200px;
+    font-size: 1.1em;
+}
+
+.about .link{
+    text-align: center;
+}
+
+.about table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 30px;
+    text-align: center;
+}

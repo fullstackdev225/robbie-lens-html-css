@@ -1,0 +1,68 @@
+/* first section */
+
+.portfolio{
+    border: 2px solid rgb(11, 26, 49);
+    background-color: rgb(11, 26, 49);
+}
+
+.portfolio h1{
+    color: rgb(11, 80, 192);
+    font-size: 3em;
+    margin-left: 100px;
+}
+
+/* second section */
+
+.landscape h1{
+    text-align: center;
+}
+
+.landscape .row{
+    display: flex;
+    justify-content: center;
+}
+
+.landscape .col{
+    padding: 5px;
+}
+
+.landscape a{
+    position: relative;
+}
+
+.landscape .photo-hover{
+    margin-top: -185px;
+    margin-bottom: 3px;
+}
+
+.landscape a:hover .photo-hover{
+    display: flex;
+}
+
+/* third section */
+
+.portrait h1{
+    text-align: center;
+}
+
+.portrait .row{
+    display: flex;
+    justify-content: center;
+}
+
+.portrait .col{
+    padding: 5px;
+}
+
+.portrait a{
+    position: relative;
+}
+
+.portrait .photo-hover{
+    margin-top: -435px;
+    margin-bottom: 3px;
+}
+
+.portrait a:hover .photo-hover{
+    display: flex;
+}
